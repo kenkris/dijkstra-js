@@ -1,4 +1,5 @@
 
+// One direction graph.
 var graph = {
     a : {
         b : 4,
@@ -17,5 +18,16 @@ var graph = {
     },
     e : {
         f : 5
-    }
+    },
+    f : {}
+}
+
+var costs = {
+
+        /**
+            example if a is start its costs would to nodes would be:
+        b : 4,
+        c : 2
+
+        */
 }
